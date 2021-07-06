@@ -5,7 +5,7 @@ import androidx.lifecycle.MutableLiveData;
 
 import com.upit.coex.user.repository.model.data.base.BaseData;
 /**
- * Created by chien.lx on 3/9/2020.
+ * Created by cin on 3/9/2020.
  */
 
 public abstract class BaseMutableLiveData<T extends BaseData > {

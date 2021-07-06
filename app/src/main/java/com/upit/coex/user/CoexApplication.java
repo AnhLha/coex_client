@@ -6,7 +6,7 @@ import com.google.gson.Gson;
 import com.upit.coex.user.service.logger.L;
 
 /**
- * Created by chien.lx on 3/9/2020.
+ * Created by cin on 3/9/2020.
  */
 
 public class CoexApplication extends Application {

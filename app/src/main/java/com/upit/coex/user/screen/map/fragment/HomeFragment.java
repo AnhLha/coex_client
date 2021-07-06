@@ -318,7 +318,7 @@ public class HomeFragment extends BaseFragment<HomeFragmentViewModel> implements
             String result = data.getStringExtra("result");
             L.d("ahiuhiu", result);
             ScheduleFragment nextFrag = new ScheduleFragment();
-            CoexSendData.getInstance().sendData(new Pair<String, Object>("bao.nt", R.id.nav_main_schedule));
+            CoexSendData.getInstance().sendData(new Pair<String, Object>("cin", R.id.nav_main_schedule));
         }
     }
 

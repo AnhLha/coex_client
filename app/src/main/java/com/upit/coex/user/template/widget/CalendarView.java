@@ -111,7 +111,7 @@ public class CalendarView extends LinearLayout implements View.OnClickListener, 
                     height = MIN_HEIGHT;
                 }
                 mItemHeight = (int) height/8;
-                Log.d("bao.nt", "height : " + height);
+                Log.d("cin", "height : " + height);
                 ((LinearLayout.LayoutParams) findViewById(R.id.lnRoot).getLayoutParams()).height = (int) height;
                 ((LinearLayout.LayoutParams) findViewById(R.id.lnHeader).getLayoutParams()).height = (int) mItemHeight;
                 ((LinearLayout.LayoutParams) findViewById(R.id.lnDayName).getLayoutParams()).height = (int) mItemHeight;
@@ -257,7 +257,7 @@ public class CalendarView extends LinearLayout implements View.OnClickListener, 
 
         }
         updateCalendar();
-        Log.d("bao.nt", "this.mChoosedDays:"+this.mChoosedDays.get(1));
+        Log.d("cin", "this.mChoosedDays:"+this.mChoosedDays.get(1));
     }
 
     public void setChoosedDaysByMonthArrayList(ArrayList<Integer> days){
@@ -266,11 +266,11 @@ public class CalendarView extends LinearLayout implements View.OnClickListener, 
             this.mChoosedDays.put(day, true);
         }
         updateCalendar();
-        Log.d("bao.nt", "this.mChoosedDays:"+this.mChoosedDays.get(1));
+        Log.d("cin", "this.mChoosedDays:"+this.mChoosedDays.get(1));
     }
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-        Log.d("bao.nt", "i:"+i+"   l:"+l);
+        Log.d("cin", "i:"+i+"   l:"+l);
         if (!"".equals(this.mDays[i].mDay)) {
             if (mIndexClickedItem >= 0) {
                 this.mDays[mIndexClickedItem].isClick = false;

@@ -59,7 +59,7 @@ public class MapActivity extends BaseActivity<MapActivityViewModel> implements M
                 .subscribe(new Consumer<Pair<String, Object>>() {
                     @Override
                     public void accept(Pair<String, Object> stringObjectPair) throws Exception {
-                        if (stringObjectPair.first!=null && stringObjectPair.first.equals("bao.nt")) {
+                        if (stringObjectPair.first!=null && stringObjectPair.first.equals("cin")) {
                             if(stringObjectPair.second != null)
                                 mBottomNavigationView.setSelectedItemId((Integer) stringObjectPair.second);
                         }
@@ -72,7 +72,7 @@ public class MapActivity extends BaseActivity<MapActivityViewModel> implements M
         fragmentHome.setData(this);
         mListFragment.add(R.id.nav_main_home);
 
-        L.d("bao.nt", R.id.nav_main_home + "");
+        L.d("cin", R.id.nav_main_home + "");
 
         fragmentSchedule = new ScheduleFragment();
         mListFragment.add(R.id.nav_main_schedule);

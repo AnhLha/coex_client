@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel;
 import com.upit.coex.user.screen.base.activity.BaseActivity;
 
 /**
- * Created by chien.lx on 3/9/2020.
+ * Created by cin on 3/9/2020.
  */
 
 public abstract class BaseActivityViewModel<T extends BaseActivity> extends ViewModel {

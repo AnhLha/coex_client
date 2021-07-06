@@ -5,7 +5,7 @@ import com.upit.coex.user.contract.base.BaseInterfaceViewModel;
 import com.upit.coex.user.screen.splash.activity.SplashActivity;
 
 /**
- * Created by chien.lx on 3/9/2020.
+ * Created by cin on 3/9/2020.
  */
 
 public class SplashContract {

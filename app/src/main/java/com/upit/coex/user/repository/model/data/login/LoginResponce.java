@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName;
 import com.upit.coex.user.repository.model.data.base.BaseData;
 
 /**
- * Created by chien.lx on 3/9/2020.
+ * Created by cin on 3/9/2020.
  */
 
 public class LoginResponce extends BaseData {

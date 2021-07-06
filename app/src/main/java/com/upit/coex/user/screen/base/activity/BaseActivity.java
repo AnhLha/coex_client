@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.upit.coex.user.viewmodel.base.BaseActivityViewModel;
 
 /**
- * Created by chien.lx on 3/9/2020.
+ * Created by cin on 3/9/2020.
  */
 
 public abstract class BaseActivity<T extends BaseActivityViewModel> extends AppCompatActivity {
